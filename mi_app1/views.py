@@ -6,7 +6,7 @@ def vista_1(request):
     html_content = """
     <h1>Bienvenidos a mi Primera Vista</h1>
     <p>Esta es una página simple creada con Django.</p>
-    <a href="/vista2/">Ir a la segunda vista</a>
+    <a href="vista2/">Ir a la segunda vista</a>
     """
     return HttpResponse(html_content)
 
